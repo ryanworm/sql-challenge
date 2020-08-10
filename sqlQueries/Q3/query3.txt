@@ -1,0 +1,7 @@
+-- -- -- QUESTION 3
+-- List the manager of each department with the following information:
+-- department number, department name, the manager's employee number, last name, first name.
+-- SELECT managers.emp_no, managers.dept_no, departments.dept_name, employees.first_name, employees.last_name
+-- FROM managers
+-- LEFT JOIN departments ON managers.dept_no = departments.dept_no
+-- INNER JOIN employees ON managers.emp_no = employees.emp_no;

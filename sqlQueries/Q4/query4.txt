@@ -1,0 +1,8 @@
+-- -- -- QUESTION 4
+-- List the department of each employee with the following information: 
+-- employee number, last name, first name, and department name.
+
+-- SELECT emp.emp_no, departments.dept_name, employees.first_name, employees.last_name
+-- FROM emp
+-- LEFT JOIN departments ON emp.dept_no = departments.dept_no
+-- INNER JOIN employees ON emp.emp_no = employees.emp_no;
